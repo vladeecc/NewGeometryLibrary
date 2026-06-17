@@ -1,6 +1,7 @@
 package org.example;
 
 import org.utils.Converter;
+import org.threeD.Cube;
 
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
@@ -26,6 +27,11 @@ public class Main {
 
         System.out.println("Triangle area: " + triangle.getArea());
         System.out.println("Triangle perimeter: " + triangle.getPerimeter());
+
+        Cube cube = new Cube(3);
+
+        System.out.println("Circle area: " + circle.getArea());
+        System.out.println("Cube volume: " + cube.getVolume());
     }
 
 }
