@@ -9,8 +9,10 @@ public class Main {
 
         double cm = 250;
         double m = Converter.cmToMeters(cm);
+        double km = Converter.mToKilometers(m);
 
         System.out.println("Meters: " + m);
+        System.out.println("Kilometers: " + km);
 
         Shape circle = new Circle(5);
         Shape rectangle = new Rectangle(4, 6);
