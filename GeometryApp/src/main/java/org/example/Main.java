@@ -7,6 +7,11 @@ import org.utils.Converter;
 public class Main {
     public static void main(String[] args) {
 
+        double cm = 250;
+        double m = Converter.cmToMeters(cm);
+
+        System.out.println("Meters: " + m);
+
         Shape circle = new Circle(5);
         Shape rectangle = new Rectangle(4, 6);
         Shape triangle = new Triangle(3, 4, 5);
@@ -20,4 +25,5 @@ public class Main {
         System.out.println("Triangle area: " + triangle.getArea());
         System.out.println("Triangle perimeter: " + triangle.getPerimeter());
     }
+
 }
